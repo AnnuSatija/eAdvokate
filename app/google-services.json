@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793212967258",
+    "project_id": "eadvokateapp",
+    "storage_bucket": "eadvokateapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793212967258:android:cacc76c1da16d73f0d7b63",
+        "android_client_info": {
+          "package_name": "com.appsnipp.eadvokate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793212967258-2u3mvdpr4olc1409qq4lprb3pf0n6o6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn7lPJHsehIBr-EV76F4-cv5FlOMxaOKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793212967258-2u3mvdpr4olc1409qq4lprb3pf0n6o6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

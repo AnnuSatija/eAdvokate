@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/realtivelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginBottom="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/successcard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="35dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="29dp"
+            app:cardElevation="20dp"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/approvaliconpayment"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paymentmsg"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/failurecard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="35dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="29dp"
+            app:cardElevation="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cancel"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paymentfailmag"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/contibutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/view"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/signbutton"
+            android:fontFamily="@font/poppinsmedium"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/proceed"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+
+
+    <!-- <RelativeLayout
+         android:id="@+id/secondlayout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:visibility="gone">
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/card1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginHorizontal="35dp"
+             android:layout_centerVertical="true"
+             android:layout_centerHorizontal="true"
+             app:cardCornerRadius="29dp"
+             app:cardElevation="20dp">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="30dp"
+                 android:layout_gravity="center">
+
+                 <ImageView
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     android:src="@drawable/paymentsuccessicon"
+                     android:layout_marginTop="20dp"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/paymentsuccessfulmsg"
+                     android:gravity="center"
+                     android:textSize="16dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:textColor="@color/successcolor"
+                     android:layout_marginTop="10dp"/>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/paymentsuccessfulmsgg"
+                     android:gravity="center"
+                     android:textSize="13dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:textColor="@color/black"
+                     android:layout_marginTop="10dp"/>
+
+                 <View
+                     android:layout_width="match_parent"
+                     android:layout_height="20dp"/>
+
+             </LinearLayout>
+
+
+         </androidx.cardview.widget.CardView>
+
+         <TextView
+             android:id="@+id/proceedbutton"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_above="@id/view1"
+             android:layout_marginHorizontal="20dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="40dp"
+             android:background="@drawable/signbutton"
+             android:fontFamily="@font/poppinsmedium"
+             android:gravity="center"
+             android:padding="10dp"
+             android:text="@string/otpbuttonmsg"
+             android:textColor="@color/white"
+             android:textSize="15dp"
+             android:textStyle="bold"/>
+
+         <View
+             android:id="@+id/view1"
+             android:layout_width="match_parent"
+             android:layout_height="20dp"
+             android:layout_alignParentBottom="true"/>
+
+     </RelativeLayout>-->
+
+
+</RelativeLayout>

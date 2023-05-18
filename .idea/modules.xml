@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eAdvokate.iml" filepath="$PROJECT_DIR$/.idea/modules/eAdvokate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eAdvokate.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eAdvokate.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eAdvokate.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eAdvokate.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eAdvokate.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eAdvokate.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eAdvokate.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eAdvokate.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

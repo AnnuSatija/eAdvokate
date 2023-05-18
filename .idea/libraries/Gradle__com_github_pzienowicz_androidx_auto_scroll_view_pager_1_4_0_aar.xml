@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.pzienowicz:androidx-auto-scroll-view-pager:1.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6212ddc0ff18f04008bf95b40c2434ec/transformed/jetified-androidx-auto-scroll-view-pager-1.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6212ddc0ff18f04008bf95b40c2434ec/transformed/jetified-androidx-auto-scroll-view-pager-1.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6212ddc0ff18f04008bf95b40c2434ec/transformed/jetified-androidx-auto-scroll-view-pager-1.4.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pzienowicz/androidx-auto-scroll-view-pager/1.4.0/9893d0d4e26261cc7dcdd0526c6a92e099d12845/androidx-auto-scroll-view-pager-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/reviewdocCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/orderId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Review Document 1"
+                android:textColor="@color/reviewdoccolor"
+                android:textColorHint="@color/reviewdoccolor"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:fontFamily="@font/poppinsmedium"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGrey"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Amount-234"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsmedium"/>
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Status-closed"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/startdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Case Start Date 31-03-2023 1:50:00 pm"
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="@color/greydark"
+                android:fontFamily="@font/poppinsmedium"/>
+
+            <TextView
+                android:id="@+id/closedate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Case Closed Date PRE_Review_DOCS5"
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="@color/greydark"
+                android:fontFamily="@font/poppinsmedium"/>
+
+            <TextView
+                android:id="@+id/remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Remark - Document remark here"
+                android:padding="5dp"
+                android:textSize="10dp"
+                android:textColor="@color/reviewdoccolor"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsmedium"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="13dp"
+                android:layout_marginTop="3dp">
+
+                <LinearLayout
+                    android:id="@+id/reviewdoclayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/signbutton"
+                    android:backgroundTint="@color/green"
+                    android:gravity="center"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/reviewtxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="View Finalized Document"
+                        android:textColor="@color/white"
+                        android:textSize="11dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp" />
+
+                <LinearLayout
+                    android:id="@+id/yourDocument"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/selectlanguageborder"
+                    android:gravity="center"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/servicetxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="View Your Document"
+                        android:textColor="@color/red"
+                        android:textSize="11dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/instanceServiceCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="7dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/instanceservicename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Marriage Registration"
+                android:textColor="@color/reviewdoccolor"
+                android:textColorHint="@color/reviewdoccolor"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:fontFamily="@font/poppinsmedium"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGrey"/>
+
+            <TextView
+                android:id="@+id/instanceserviceorderId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Order ID-INSTANT_SERVICE_1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsmedium"
+                android:padding="5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/instanceserviceamount"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Amount-234"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsmedium"/>
+                <TextView
+                    android:id="@+id/instanceservicestatus"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Status-closed"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/instanceservicestartdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Case Start Date 31-03-2023 1:50:00 pm"
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="@color/greydark"
+                android:fontFamily="@font/poppinsmedium"/>
+
+            <TextView
+                android:id="@+id/instanceserviceclosedate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Case Closed Date PRE_Review_DOCS5"
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="@color/greydark"
+                android:fontFamily="@font/poppinsmedium"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>

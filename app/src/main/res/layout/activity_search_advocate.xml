@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SearchAdvocateActivity">
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/homepagebackdesign"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/backarrow"
+            android:layout_marginBottom="3dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:elevation="20dp"
+            app:cardCornerRadius="100dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/backarrow"
+                app:tint="@color/red" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:gravity="center_horizontal"
+            android:text="@string/searchadvocate"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <RelativeLayout
+            android:id="@+id/searchadvoacteaddresslayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="2dp"
+                android:src="@drawable/locationicon" />
+
+            <TextView
+                android:id="@+id/currentaddressnearbyadvocate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/image"
+                android:fontFamily="@font/poppinsmedium"
+                android:hint="current address"
+                android:padding="2dp"
+                android:text="Noida, U.P."
+                android:textColor="@color/red"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/searchadvoactelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/middlelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:paddingBottom="5dp"
+                android:text="@string/selectcity"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="7dp">
+
+                    <TextView
+                        android:id="@+id/currentaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="2dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:gravity="center"
+                        android:hint="current address"
+                        android:padding="5dp"
+                        android:textColor="@color/red"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:paddingBottom="5dp"
+                android:text="@string/selectcourt"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <Spinner
+                android:id="@+id/courtnamespinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/loginpagespinnerback"
+                android:elevation="5dp"
+                android:padding="7dp"
+                android:popupBackground="@color/white"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:paddingBottom="5dp"
+                android:text="@string/preferdlang"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/englishtxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextback"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="English"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:id="@+id/hinditxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextback"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="हिन्दी"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:paddingBottom="5dp"
+                android:text="@string/mode"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/onlinetxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextback"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/onlinemeet"
+                    android:textColor="@color/black" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:id="@+id/personaltxt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextback"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/personmeet"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/continuetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/signbutton"
+            android:elevation="10dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/otpbuttonmsg"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/nearbyadvoactelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/toplayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1.5">
+
+            <TextView
+                android:id="@+id/firsttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsmedium"
+                android:paddingBottom="5dp"
+                android:text="@string/discalimermsg"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@id/firsttxt"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="@string/nearbyadvoctmsg"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="11dp" />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/nearbyadvocatelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toplayout" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/scheduleappointmentlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/proceedcheckout"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="15dp">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".5"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="160dp">
+
+                            <ImageView
+                                android:id="@+id/advocateimage"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/demoimageadvocate" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/advocatename"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Adv. Annu Satija"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/exp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Experience - 5yrs"
+                            android:textColor="@color/grey"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:padding="10dp"
+                    android:text="@string/choosemode"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:id="@+id/onlinevideolayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittextback"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/videotxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:elevation="3dp"
+                            android:fontFamily="@font/montserrat"
+                            android:padding="10dp"
+                            android:text="@string/onlinevideomsg"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/videotxtfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/montserrat"
+                            android:padding="10dp"
+                            android:text="$599"
+                            android:textColor="@color/black" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/onlineaudiolayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittextback"
+                        android:layout_margin="5dp">
+
+                        <TextView
+                            android:id="@+id/audiotxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:elevation="3dp"
+                            android:fontFamily="@font/montserrat"
+                            android:padding="10dp"
+                            android:text="@string/onlineaudiomsg"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/audiofee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/montserrat"
+                            android:padding="10dp"
+                            android:text="$399"
+                            android:textColor="@color/black" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:padding="10dp"
+                    android:text="@string/selectdate"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                   <TextView
+                       android:id="@+id/opencalendertxt"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:fontFamily="@font/poppinsmedium"
+                       android:padding="10dp"
+                       android:text="@string/opencalendar"
+                       android:textColor="@color/red"
+                       android:textSize="12dp"
+                       android:layout_alignParentRight="true"/>
+
+               </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/yesterdaydate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittextback"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="05 Sept"
+                        android:layout_margin="5dp"
+                        android:elevation="3dp"
+                        android:textColor="@color/black"/>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/todaydate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittextback"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="06 Sept"
+                        android:layout_margin="5dp"
+                        android:elevation="3dp"
+                        android:textColor="@color/black"/>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/tomorrowdate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittextback"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="07 Sept"
+                        android:layout_margin="5dp"
+                        android:elevation="3dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:padding="10dp"
+                    android:text="@string/advocateavailabilitymsg"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/time1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/timeslotselection"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="12:00 PM"
+                        android:layout_margin="5dp"
+                        android:elevation="3dp"
+                        android:textColor="@color/black"/>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/time2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/timeslotselection"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="2:30 PM"
+                        android:layout_margin="5dp"
+                        android:elevation="3dp"
+                        android:textColor="@color/black"/>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/time3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/timeslotselection"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="3:30 PM"
+                        android:layout_margin="5dp"
+                        android:elevation="3dp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/time4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/timeslotselection"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="5:00 PM"
+                        android:layout_margin="5dp"
+                        android:elevation="3dp"
+                        android:textColor="@color/black"/>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/time5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/timeslotselection"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="7:30 PM"
+                        android:layout_margin="5dp"
+                        android:elevation="3dp"
+                        android:textColor="@color/black"/>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <TextView
+                        android:id="@+id/time6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/timeslotdisable"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="9:00 PM"
+                        android:layout_margin="5dp"
+                        android:elevation="3dp"
+                        android:textColor="@color/grey"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:padding="10dp"
+                    android:text="@string/uploaddocmsg"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:id="@+id/selectfilelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/timeslotdisable"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/add"
+                        android:scaleType="centerInside"
+                        app:tint="@color/grey"/>
+
+                    <TextView
+                        android:id="@+id/uploadfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="@string/dochintmsg"
+                        android:textAlignment="center"
+                        android:textColor="@color/grey"
+                        android:layout_marginLeft="3dp"/>
+
+                </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+                   <TextView
+                       android:id="@+id/uploadfilepath"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/red"
+                       android:fontFamily="@font/poppinsmedium"
+                       android:hint="Document.pdf, File_08756.txt"
+                       android:layout_margin="5dp"
+                      />
+
+                   <androidx.cardview.widget.CardView
+                       android:id="@+id/imageviewcard"
+                       android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       app:cardCornerRadius="10dp"
+                       android:layout_margin="10dp"
+                       android:visibility="gone">
+
+                       <ImageView
+                           android:id="@+id/uploadimage"
+                           android:layout_width="150dp"
+                           android:layout_height="150dp"
+                           android:src="@drawable/demoimageadvocate"
+                           android:scaleType="centerCrop"/>
+
+                   </androidx.cardview.widget.CardView>
+
+
+               </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:padding="10dp"
+                    android:text="@string/writebriefmsg"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/timeslotdisable"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="10dp">
+
+                    <EditText
+                        android:id="@+id/writemsg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:hint="@string/writeheremsg"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/grey"
+                        android:padding="10dp"
+                        android:background="@null"
+                        android:textSize="12dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/proceedcheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/signbutton"
+            android:elevation="10dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/proceedchekout"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+</RelativeLayout>

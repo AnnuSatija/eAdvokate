@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/instancelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="3dp"
+        android:visibility="visible"
+        android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/catimage"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/serviceicon"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/catname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/legalassmsg"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="11dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/whatsnewlayout"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/civilcolor"
+        android:visibility="gone">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:elevation="20dp">
+
+        <ImageView
+            android:id="@+id/whatsimage"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/civilicon"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="7dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/whatsimage"
+            android:layout_alignParentBottom="true"
+            app:cardCornerRadius="8dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginHorizontal="1dp">
+
+        <TextView
+            android:id="@+id/whatsname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Schoolbook"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppinsmedium" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/trendinglayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/mainlayout"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/confidentialicon"/>
+
+            <TextView
+                android:id="@+id/servicestxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="1dp"
+            android:background="@color/red"
+            android:layout_marginTop="7dp"
+            android:layout_below="@+id/mainlayout"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/knowrights"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="20dp"
+        android:visibility="gone"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:elevation="20dp">
+
+            <ImageView
+                android:id="@+id/rightknowimage"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_weight="1.7"
+                    android:id="@+id/rightknow"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/knowrighttitlea"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+                <ImageView
+                    android:layout_weight=".3"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/forwordarrow"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/feedsitemcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="20dp"
+        android:visibility="gone"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:elevation="20dp">
+
+            <ImageView
+                android:id="@+id/feedimage"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_weight="1.7"
+                    android:id="@+id/feedmsg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/feedlist"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+                <ImageView
+                    android:id="@+id/savefeed"
+                    android:layout_weight=".3"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/unsavefeedsicon"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

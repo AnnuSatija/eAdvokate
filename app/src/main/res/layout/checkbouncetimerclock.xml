@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/realtivelayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/backarrow"
+android:layout_marginBottom="3dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:cardCornerRadius="100dp"
+        android:elevation="20dp"
+       android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/backarrow"
+            app:tint="@color/red"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/backarrow"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/clocllayout"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/backarrow"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="-30dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="15dp"
+                android:src="@drawable/clockhead"
+                android:layout_gravity="center"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/clockbackground">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="06:00"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:rotation="180"
+                    android:src="@drawable/clockhead" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/clocklegs"
+                    android:layout_marginRight="30dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbouncealertmsg"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:layout_marginTop="25dp"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/msgg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbouncealertmsga"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="10dp"
+            android:textSize="12dp"
+            android:layout_below="@id/msg"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/msggg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbouncealertmsgb"
+            android:textColor="@color/red"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="10dp"
+            android:textSize="12dp"
+            android:layout_below="@id/msg"
+            android:layout_marginTop="70dp"
+            android:textAlignment="center"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

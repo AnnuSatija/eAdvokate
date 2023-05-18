@@ -1,0 +1,346 @@
+<resources>
+    <string name="google_maps_key">AIzaSyAn7lPJHsehIBr-EV76F4-cv5FlOMxaOKI</string>
+    <string name="authpassword" translatable="false">IwwK5$7T$q67Zny$46@5Sji08kjIxoHn9%QjINvEJ&amp;ji4h^EL</string>
+    <string name="app_name">एडवोकेट</string>
+    <string name="signintext">पसंदीदा परामर्श भाषा</string>
+    <string name="applanguage">Preferred App Language</string>
+    <string name="letsstarttext">आएँ शुरू करें</string>
+    <string name="signmsg">खाता नहीं है?</string>
+    <string name="regismsg">क्या आपके पास पहले से एक खाता मौजूद है?</string>
+    <string name="optscreentext">सत्यापन</string>
+    <string name="otpmsg">अपना ओटीपी कोड नंबर दर्ज करें</string>
+    <string name="otpbuttonmsg">जारी रखना</string>
+    <string name="codemsg">कोड प्राप्त नहीं हुआ?</string>
+    <string name="resendmsg">ओटीपी पुनः भेजें</string>
+    <string name="hyperlink"> से सहमत<a href="https://eadvokate.com/privacy-policies">शर्तें &amp; स्थितियाँ</a></string>
+    <string name="home">घर</string>
+    <string name="explore">अन्वेषण करना</string>
+    <string name="profile">फ़ीड</string>
+    <string name="help">एकाउंट</string>
+    <string name="search">खोज</string>
+    <string name="homemsg">किसी अनुभवी अधिवक्ता की सहायता से तुरंत कोई भी शिकायत / प्राथमिकी दर्ज करें</string>
+    <string name="videomsg">तत्काल वीडियो\nपरामर्श</string>
+    <string name="audiomsg">तत्काल ऑडियो\nपरामर्श</string>
+    <string name="schedulmsg">मिलने का एक निश्चित समय तय करें</string>
+    <string name="instantservice">त्वरित समाधान &amp; अनुकूलित सेवाएं</string>
+    <string name="instantservicenew">तत्काल सेवाएं</string>
+    <string name="viewall">सभी देखें</string>
+    <string name="consultation">मेरे परामर्श</string>
+    <string name="legalmsg">24x7 कानूनी सहायता</string>
+    <string name="legaladvocate">24x7 कानूनी वकील</string>
+    <string name="startup">वकीलों को शुरू करें</string>
+    <string name="revdocmsg">दस्तावेज़ों की समीक्षा करें</string>
+    <string name="cheqmsg">चेक बाउंस/एनआई</string>
+    <string name="issumsg">नोटिस जारी करें!</string>
+    <string name="rentmsg">किराया समझौता</string>
+    <string name="marriagemsg">विवाह पंजीकरण</string>
+    <string name="matrimsg">वैवाहिक विवाद</string>
+    <string name="legalassmsg">स्टार्टअप्स के लिए कानूनी सहायता</string>
+    <string name="assismsg">शपथ पत्र के साथ सहायता</string>
+    <string name="settlemsg">अपने चालान का निपटारा करें</string>
+    <string name="animlmsg">पशुओं पर निर्दयता</string>
+    <string name="conmsg">उपभोक्ता सहायता</string>
+    <string name="cybermsg">साइबर अपराध</string>
+    <string name="sendnotice">एक सूचना भेजें</string>
+    <string name="affidavit">एक शपथ पत्र बनाओ</string>
+    <string name="challan">चालान का विमोचन</string>
+    <string name="whatsissue">मुद्दा क्या है</string>
+    <string name="civilmsg">सिविल/वाणिज्यिक </string>
+    <string name="propertymsg">संपत्ति\n/अचल संपत्ति</string>
+    <string name="corpormsg">निगमित</string>
+    <string name="criminalmsg">आपराधिक</string>
+    <string name="divorcemsg">तलाक</string>
+    <string name="taxmsg">कर लगाना</string>
+    <string name="marriagemsga">अपनी शादी रजिस्टर करें</string>
+    <string name="chequbouncmsg">बैंकिंग\n/चेक बाउंसिंग</string>
+    <string name="envmsg">पर्यावरण</string>
+    <string name="animmsg">पशुओं पर निर्दयता</string>
+    <string name="dommsg">घरेलू आवाज</string>
+    <string name="sexmsg">यौन उत्पीड़न</string>
+    <string name="motormsg">मोटर दुर्घटना</string>
+    <string name="myprofile">मेरी प्रोफाइल</string>
+    <string name="cases">मेरे मामले</string>
+    <string name="request">अनुरोध लंबित</string>
+    <string name="appoint">मेरी नियुक्तियां</string>
+    <string name="advocate">मेरे वकील</string>
+    <string name="payment">भुगतान और धनवापसी</string>
+    <string name="lawyer">मेरे वकील</string>
+    <string name="setting">समायोजन</string>
+    <string name="downloadmsg">के लिए ऐप डाउनलोड करें</string>
+    <string name="layer">वकीलों</string>
+    <string name="student">छात्र</string>
+    <string name="supor">सहायता केंद्र</string>
+    <string name="other">अन्य</string>
+    <string name="termcondition">नियम और शर्तें</string>
+    <string name="policymsg">गोपनीयता नीति</string>
+    <string name="rateus">हमें रेटिंग दें</string>
+    <string name="shareapp">अपने मित्रों के साथ साझा करें</string>
+    <string name="chat">बात करना</string>
+    <string name="review">समीक्षा</string>
+    <string name="aboutmsg">हमारे बारे में</string>
+    <string name="contus">संपर्क करें</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="query">प्रश्नों</string>
+    <string name="about">एडवोकेट के बारे में</string>
+    <string name="more">अधिक</string>
+    <string name="child">चाइल्ड कस्टडी (बंदी प्रत्यक्षीकरण)</string>
+    <string name="arbitration">मध्यस्थता सुलह</string>
+    <string name="labor">श्रम और औद्योगिक कानून</string>
+    <string name="breach">अनुबंध का उल्लंघन</string>
+    <string name="consumer">उपभोक्ता संरक्षण</string>
+    <string name="custom">कस्टम और केंद्रीय उत्पाद शुल्क</string>
+    <string name="immigration">आप्रवासन प्रमाणपत्र</string>
+    <string name="insurance">बीमा दावा</string>
+    <string name="itr">आईटीआर/जीएसटी मुद्दा</string>
+    <string name="medical">चिकित्सा लापरवाही</string>
+    <string name="trade">ट्रेडमार्क मुद्दा</string>
+    <string name="willstrust">विल्स/ट्रस्ट</string>
+    <string name="muslimlaws">मुस्लिम कानून</string>
+    <string name="humanrights">मानवाधिकार</string>
+    <string name="media">मीडिया और मनोरंजन</string>
+    <string name="mergers">विलय और अधिग्रहण</string>
+    <string name="dataprivacy">डाटा प्राइवेसी</string>
+    <string name="marriagecouns">विवाह परामर्श</string>
+    <string name="employmatter">रोजगार के मामले</string>
+    <string name="techlaws">प्रौद्योगिकी कानून</string>
+    <string name="enargylaw">ऊर्जा कानून</string>
+    <string name="citizenship">नागरिकता मामले</string>
+    <string name="outsidemsg">कोर्ट सेटलमेंट के बाहर</string>
+    <string name="commercialmsg">व्यवसायिक अनुबंध</string>
+    <string name="salesmsg">बिक्री/खरीद डीड</string>
+    <string name="patent">पेटेंट मुद्दा</string>
+    <string name="copy">कॉपीराइट मुद्दा</string>
+    <string name="registration">वसीयत/ट्रस्ट का पंजीकरण</string>
+    <string name="success">उत्तराधिकार</string>
+    <string name="human">मानवाधिकार</string>
+    <string name="merger">विलय और अधिग्रहण</string>
+    <string name="data">डाटा प्राइवेसी</string>
+    <string name="arms">शस्त्र और गोलाबारूद</string>
+    <string name="matrimonial">वैवाहिक विवाद</string>
+    <string name="energy">ऊर्जा कानून </string>
+    <string name="citizen">नागरिकता मामले</string>
+    <string name="mediation">मध्यस्थता</string>
+    <string name="commercial">व्यवसायिक अनुबंध</string>
+    <string name="sale">बिक्री/खरीद डीड</string>
+    <string name="meeting">व्यक्तिगत\nबैठक</string>
+    <string name="online">ऑनलाइन परामर्श</string>
+    <string name="teleonline">टेलीफोनिक कंसल्टेंसी</string>
+    <string name="pickcase">अपना केस चुनें</string>
+    <string name="property">संपत्ति</string>
+    <string name="civil">नागरिक</string>
+    <string name="criminal">आपराधिक</string>
+    <string name="divorce">तलाक</string>
+    <string name="environment">पर्यावरण</string>
+    <string name="txt">कर</string>
+    <string name="clockpagemsg">कृपया प्रतीक्षा करें! हम आपके लिए सबसे अच्छे \nवकील ढूंढ रहे हैं!</string>
+    <string name="alertmsg">इस बीच: \n रिफ्रेश/बैक बटन न दबाएं और सुनिश्चित करें कि आपके पास एक स्थिर कनेक्शन है।</string>
+    <string name="youradvocate">आपका अधिवक्ता</string>
+    <string name="advocatetitle">हमारे वकील शुभम रावत आपके कानूनी मामलों में आपकी सहायता करने के लिए यहां हैं</string>
+    <string name="profileview">्रोफ़ाइल देखें</string>
+    <string name="contibutton">अभी जारी रखें</string>
+    <string name="supportmsg">मुफ्त सहायता चाहिए?</string>
+    <string name="feedmsg">फ़ीडबैक</string>
+    <string name="videoquality">वीडियो की गुणवत्ता</string>
+    <string name="audioquality">ऑडियो गुणवत्ता</string>
+    <string name="suggestion">कोई सुझाव?</string>
+    <string name="hintmsg">यहाँ लिखें...</string>
+    <string name="proceed">होमपेज पर जाये</string>
+    <string name="profilelawyer">अधिवक्ता प्रोफाइल</string>
+    <string name="demodetailsadvocate">लोरेम इप्सम डोलर सिट एमेट, कॉन्सेक्टेटूर एडिपिसिसिंग एलीट। जस्टो अल्ट्रिसेस जस्टो, कमोडो मस पोसुरे। एजेस्टस विवरा विटे विटे विटे इप्सम सिट आईडी पुरुस एमेट। डोनेक क्विस टर्पिस में कॉन्सेक्टेटूर टेम्पस। नुलम फ्रिंजिला उलमकॉर्पर कॉन्डिमेंटम लॉरीट। एनिम रोंकस नेक उलमकॉर्पर ए वेलिट में कॉन्वलिस। सेड अल्ट्रिसेस निभ अलिकम कॉन्ग्यू सेड विटे सेड मैकेनास। वेल डुइस एगेट सेनेक्टस हैबिटेंट वॉलटपैट प्रीटियम। मोलेस्टी ओर्सी कॉन्ग्यू रिसस यूट यूट एक्यूमसन रिसस लोरेम विवरा। नॉन वेल कॉन्सेक्टेटूर मासा ओडियो एलिकम आईडी आमेट। टर्पिस एमेट प्रैसेंट और कॉनवेलिस एडिपिसिंग रिसस, फैसिलिसिस फैसिलिसी। एट वेलिट पुल्विनर ट्रिस्टिक hac sed vulputate sed। क्युराबिटुर मौरिस, मासा टिनसिडंट क्विस एडिपिसिंग इंटरडम आईडी मेटस अल्ट्रीसिस। नेटस सस्पेंडिस लैकिनिया एलिकम उलमकॉर्पर। यूट एट लेक्टस एट निस्ल में।
+        डायम एस्टास विटे फॉसीबस डुई। डुई उलमकॉर्पर लोबोर्टिस डोलर प्लेटिया मौरिस पुरुस, लौरीट आर्कु डिक्टमस्ट। क्वाम एलिमेंटम क्विस्क ऑग्यू एसी, सेम्पर कमोडो, इम्परडिएट आर्कू उलमकॉर्पर। Egestas a ac orci aenean risus dolor, mi.</string>
+    <string name="profiledetailspagemsg">अभी संपर्क करें</string>
+    <string name="paymentsuccessfulmsg">आपका भुगतान सफल रहा !!</string>
+    <string name="paymentmsg">आपका भुगतान सफल रहा. अनुभवी अधिवक्ताओं से ठोस कानूनी सलाह प्राप्त करने के लिए तैयार हो जाइए।</string>
+    <string name="paymentpagebutton">अब जोड़ो</string>
+    <string name="documentreview">दस्तावेज़ समीक्षा</string>
+    <string name="noofpages">पृष्ठों की कुल संख्या</string>
+    <string name="docuploadmsg">अपने दस्तावेज़ यहाँ अपलोड करें</string>
+    <string name="dochintmsg">फ़ाइलें चुनें</string>
+    <string name="dochintmsgg">फिर से अपलोड</string>
+    <string name="paymentbreak">भुगतान गोलमाल</string>
+    <string name="checkbouncealertmsg">कृपया प्रतीक्षा करें! हम अभी उपलब्ध सर्वोत्तम अधिवक्ताओं को ढूंढ रहे हैं!</string>
+    <string name="checkbouncealertmsga">इस बीच: \nअपने दस्तावेज़ तैयार रखें</string>
+    <string name="checkbouncealertmsgb">ब्लैंक चेक के अनधिकृत उपयोग जैसे अपराधों से बचने के लिए विशिष्ट दिशानिर्देशों का पालन किया जाना चाहिए। अपने वकील से पूछें और खुद को शिक्षित करें!</string>
+    <string name="noticemsga">इस बीच:\nअपना केस सारांश तैयार रखें, और अपना समय बचाएं!</string>
+    <string name="noticemsgb">क्या आप जानते हैं कि कानूनी नोटिस देने से विरोधी पक्ष को मामले को सौहार्दपूर्ण ढंग से संबोधित करने का दायित्व मिलता है?</string>
+    <string name="rentmaga">इस बीच:\nअपना केस सारांश तैयार रखें!</string>
+    <string name="marriagea">इस बीच:\nसुनिश्चित करें कि आपके पास और आपके जीवनसाथी के सभी दस्तावेज और आईडी प्रूफ अभी आपके पास हैं!</string>
+    <string name="marriageb">एक विवाह प्रमाणपत्र दोनों पति-पत्नी के लिए सुरक्षा प्रदान करता है, लेकिन यह जोड़ों को जीवनसाथी के वीजा पर विदेश जाने की भी अनुमति देता है, और विवाह प्रमाणपत्र बैंकिंग मामलों और विदेश में बसने के लिए वीजा मांगने में भी मदद करता है।</string>
+    <string name="matrimonia">इस बीच:\nसुनिश्चित करें कि आपके पास और आपके जीवनसाथी के सभी दस्तावेज और आईडी प्रूफ अभी आपके पास हैं!</string>
+    <string name="chooselawyer">अपना वकील चुनें</string>
+    <string name="basic">बुनियादी</string>
+    <string name="basicexp">अनुभव - 0-3 वर्ष</string>
+    <string name="basiccharg">शुल्क - रु. 80/पेज</string>
+    <string name="advance">अग्रिम</string>
+    <string name="advancexp">अनुभव - 3-7 वर्ष</string>
+    <string name="advanccharg">शुल्क - रु. 120/पेज</string>
+    <string name="pro">समर्थक</string>
+    <string name="proexp">अनुभव - 7+ वर्ष</string>
+    <string name="procharg">शुल्क - रु. 150/पेज</string>
+    <string name="noti">सूचनाएं</string>
+    <string name="notimsg">एडवोकेट ने आपके परामर्श अनुरोध को स्वीकार कर लिया है। कनेक्ट करने के लिए अभी भुगतान करें।</string>
+    <string name="time">10:10 पूर्वाह्न</string>
+    <string name="setlocation">एक स्थान चुनें</string>
+    <string name="searchmsg">क्षेत्र, गली का नाम खोजें...</string>
+    <string name="locmsg">अपने वर्तमान स्थान का उपयोग करें</string>
+    <string name="nearlymsg">आस-पास के स्थान</string>
+    <string name="chng">परिवर्तन</string>
+    <string name="cnfrmloc">स्थान की पुष्टि करें</string>
+    <string name="gpstitle">जीपीएस आवश्यक!</string>
+    <string name="gpsmsg">जीपीएस सक्षम करें अन्यथा स्थान काम नहीं करेगा</string>
+    <string name="settinggps">समायोजन</string>
+    <string name="changelocation">स्थान बदलें</string>
+    <string name="confidential">100% गोपनीय रूप से</string>
+    <string name="legalconsulant">24*7 कानूनी परामर्श</string>
+    <string name="instantadvice">तत्काल कानूनी सलाह</string>
+    <string name="affordablerate">वहनीय दरें</string>
+    <string name="knowright">अपने अधिकारों को जानना</string>
+    <string name="knowrighttitlea">चेक बाउंस के ठीक बगल में</string>
+    <string name="knowrighttitleb">माता-पिता का अपने बच्चों द्वारा समर्थित होने का अधिकार</string>
+    <string name="knowrighttitlec">धनवापसी का दावा करने का अधिकार</string>
+    <string name="knowrighttitled">समान काम के लिए समान वेतन</string>
+    <string name="instantservicesdetails">तत्काल समाधान और अनुकूलित सेवाएं क्या है?</string>
+    <string name="instantservicesdetailsbottom">हम आपके समय और प्रयास को महत्व देते हैं इसलिए हम एक कुशल अधिवक्ता के साथ परामर्श प्रदान करते हैं। हमारे वकील आपकी समस्या को सुनेंगे और आपके लिए सबसे उपयुक्त समाधान तैयार करेंगे। हम तुरंत सर्वोत्तम संभव सलाह के साथ आपकी मदद करने के लिए प्रतिबद्ध हैं।</string>
+    <string name="trendingadvocatetag">रुझान वाले अधिवक्ता</string>
+    <string name="nameadvocate">सलाह आकृति जैनी</string>
+    <string name="feedlist">तलाकशुदा पति या पत्नी के साथ सम्मान और सम्मान के साथ व्यवहार किया जाना चाहिए और बच्चे के सामने दया दिखानी चाहिए</string>
+    <string name="videoloadermsg">पसंदीदा परामर्श भाषा</string>
+    <string name="paymentbreakup">भुगतान गोलमाल</string>
+    <string name="consulfee">सलहाकरी संस्था का शुल्क -</string>
+    <string name="cgst">सीजीएसटी @ 9% -</string>
+    <string name="gst">जीएसटी @ 9% -</string>
+    <string name="couponcode">कूपन(EADVOKATE100)</string>
+    <string name="totalpaymsg">कुल देय राशि:</string>
+    <string name="usedcoupnmsg">प्रयुक्त कूपन</string>
+    <string name="congratulationmsg">बधाई हो आपकी वाणिज्य दूतावास फीस 100% माफ कर दी गई है।</string>
+    <string name="proceedmsg">शामिल होने के लिए आगे बढ़ें</string>
+    <string name="feedbackmsg">आपको धन्यवाद! हमें उम्मीद है कि हमारे कानूनी विशेषज्ञों ने आपकी समस्या का समाधान कर दिया है, आप उसी पर आगे संचार प्राप्त करेंगे।</string>
+    <string name="civilcomm">सिविल / वाणिज्यिक</string>
+    <string name="corporate">निगमित</string>
+    <string name="divorcee">तलाक</string>
+    <string name="checkbounc">चेक बाउंसिंग</string>
+    <string name="animal">पशुओं पर निर्दयता</string>
+    <string name="sexualhars">यौन उत्पीड़न</string>
+    <string name="realest">संपत्ति / अचल संपत्ति</string>
+    <string name="criminall">आपराधिक</string>
+    <string name="taxation">कर लगाना</string>
+    <string name="environmentt">पर्यावरण</string>
+    <string name="doms">घरेलू हिंसा</string>
+    <string name="motoraccid">मोटर दुर्घटना</string>
+    <string name="searchadvocate">एक वकील खोजें</string>
+    <string name="selectcity">शहर चुनें</string>
+    <string name="selectcourt">न्यायालय का चयन करें (वैकल्पिक)</string>
+    <string name="preferdlang">पसंदीदा परामर्श भाषा</string>
+    <string name="mode">मोड का चयन करें</string>
+    <string name="onlinemeet">ऑनलाइन बैठक</string>
+    <string name="personmeet">व्यक्तिगत बैठक</string>
+    <string name="discalimermsg">अस्वीकरण:</string>
+    <string name="nearbyadvoctmsg"> कृपया ध्यान दें कि हर वकील के अनुभव के आधार पर कीमतें अलग-अलग हो सकती हैं।</string>
+    <string name="nearbymsg">आस-पास के वकील</string>
+    <string name="schedulemsg">शेड्यूल अपॉइंटमेंट</string>
+    <string name="proceedchekout">चेकआउट के लिए आगे बढ़े</string>
+    <string name="choosemode">मोड चुनें</string>
+    <string name="onlinevideomsg">ऑनलाइन वीडियो कंसल्टेंसी</string>
+    <string name="onlineaudiomsg">ऑनलाइन ऑडियो कंसल्टेंसी</string>
+    <string name="selectdate">तारीख़ चुनें</string>
+    <string name="opencalendar">कैलेंडर खोलें</string>
+    <string name="advocateavailabilitymsg">अधिवक्ता की उपलब्धता</string>
+    <string name="uploaddocmsg">दस्तावेज़ अपलोड करें (वैकल्पिक)</string>
+    <string name="writecasemsg">केस संक्षिप्त लिखें (वैकल्पिक)</string>
+    <string name="scheduleappnt">नियुक्ति की सूची बनाना</string>
+    <string name="writebriefmsg">केस संक्षिप्त लिखें (वैकल्पिक)</string>
+    <string name="writeheremsg">यहाँ लिखें।</string>
+    <string name="selectopt">सोर्स चुनें</string>
+    <string name="paymentdetailsmsg">भुगतान विवरण</string>
+    <string name="paymentchargemsg">आपकी 30 मिनट की परामर्श के लिए शुल्क</string>
+    <string name="proceeddmsg">चुकाने के लिए कार्रवाई शुरू करो</string>
+    <string name="docproceed">आगे बढ़ना</string>
+    <string name="chooselawyercat">अपना वकील चुनें</string>
+    <string name="expfirst">अनुभव - 0-3 वर्ष</string>
+    <string name="expfirstcharge">शुल्क - रु. 80/पेज</string>
+
+    <string name="chooselawyercatad">अग्रिम</string>
+    <string name="expsecnd">अनुभव - 3-7 वर्ष</string>
+    <string name="expsecndcharge">शुल्क - रु. 120/पेज</string>
+
+    <string name="chooselawyercatpr">समर्थक</string>
+    <string name="expthird">अनुभव - 7+ वर्ष</string>
+    <string name="expthirdcharge">शुल्क - रु. 150/पेज</string>
+
+    <string name="pros">आगे बढ़ना</string>
+
+    <string name="paymentsuccessfulmsgg">हमें चुनने के लिए धन्यवाद। आपको अपने समीक्षा किए गए दस्तावेज़ 24 घंटे में प्राप्त हो जाएंगे। </string>
+    <string name="douknow">क्या आप जानते हैं</string>
+    <string name="justmsg">Right next to the Cheque Bounce</string>
+
+    <string name="demomsg">चेक बाउंस 1881 के नेगोशिएबल इंस्ट्रूमेंट्स एक्ट की धारा 138 का उल्लंघन है, चेक के मूल्य को दोगुना करने के लिए जुर्माना, दो साल तक की कैद, या दोनों से दंडनीय है।
+
+यदि आपके अधिकार का हनन हो तो आपको क्या करना चाहिए?
+
+यदि आपको चेक के माध्यम से भुगतान मिलता है और यह बाउंस हो जाता है, तो आपको तुरंत एक वकील को बुलाना चाहिए और उस व्यक्ति को कानूनी नोटिस देना चाहिए जो आपको प्रतिपूर्ति करने के लिए बाध्य है।
+
+यदि आप कानूनी नोटिस प्राप्त करने के 15 दिनों के भीतर भुगतान प्राप्त नहीं करते हैं, तो आप व्यक्ति के खिलाफ आपराधिक आरोप लगा सकते हैं, और परिणामस्वरूप उसे कैद किया जा सकता है।
+</string>
+
+    <string name="didknowmsgtitle">कोई भी फर्म गर्भवती महिला को न तो आग लगा सकती है और न ही छोड़ने के लिए कह सकती है। इसमें अधिकतम 3 साल की कैद की सजा हो सकती है</string>
+    <string name="didknowmsgdesc">यदि कंपनी (प्राधिकरण या निजी) में 10 से अधिक कर्मचारी हैं तो गर्भवती महिला कर्मचारी 84 दिनों की सवैतनिक मातृत्व छुट्टी पाने की पात्र है। अगर आपने कभी खुद को ऐसी स्थिति में पाया है, तो आप जानते हैं कि क्या करना है।</string>
+
+    <string name="advocateprofiletitle">मेरे वकील</string>
+    <string name="editmsg">प्रोफ़ाइल संपादित करें</string>
+
+    <string name="name">नाम</string>
+    <string name="mbnumber">मोबाइल नंबर</string>
+    <string name="email">ईमेल </string>
+    <string name="gender">लिंग</string>
+    <string name="city">शहर</string>
+    <string name="state">राज्य</string>
+    <string name="applang">ऐप भाषा</string>
+    <string name="delete">खाता हटा दो</string>
+    <string name="myapponts">मेरी नियुक्ति</string>
+
+    <string name="upcoming">आगामी</string>
+    <string name="previous">पिछला</string>
+
+    <string name="reschedule">पुनर्निर्धारित</string>
+    <string name="cancl">रद्द करना</string>
+
+    <string name="anotherappointment">एक और अपॉइंटमेंट बुक करें</string>
+    <string name="raiseissue">एक मुद्दा उठाओ</string>
+    <string name="payments">भुगतान</string>
+    <string name="paymentsmsg"> अभी आपके पास कोई केस नहीं है!</string>
+
+    <string name="helpcenter"> सहायता केंद्र</string>
+    <string name="paymentissue"> भुगतान संबंधी समस्या</string>
+    <string name="paymentrefund"> भुगतान और धनवापसी </string>
+    <string name="advocaterelatedissue">अधिवक्ताओं से संबंधित मुद्दा</string>
+    <string name="others">अन्य</string>
+    <string name="writeissue">अपनी समस्या यहाँ लिखें...</string>
+    <string name="submit">प्रस्तुत करना</string>
+    <string name="privacy">प्रमुख बिंदुओं का सारांश
+    यह सारांश हमारी गोपनीयता नीति के प्रमुख बिंदु प्रदान करता है।
+
+    हम किस व्यक्तिगत जानकारी को संसाधित करते हैं? जब आप हमारी सेवाओं पर जाते हैं, उनका उपयोग करते हैं, या नेविगेट करते हैं, तो हम व्यक्तिगत जानकारी को इस आधार पर संसाधित कर सकते हैं कि आप Eadvokate.com/ Eadvokate और सेवाओं, आपके द्वारा चुने गए विकल्पों और आपके द्वारा उपयोग किए जाने वाले उत्पादों और सुविधाओं के साथ कैसे इंटरैक्ट करते हैं।
+
+    क्या हम किसी संवेदनशील व्यक्तिगत जानकारी को संसाधित करते हैं? हम संवेदनशील प्रक्रिया नहीं करते हैं
+    व्यक्तिगत जानकारी।
+
+    क्या हमें तीसरे पक्ष से कोई जानकारी प्राप्त होती है? हम सार्वजनिक डेटाबेस, मार्केटिंग पार्टनर, सोशल मीडिया प्लेटफॉर्म और अन्य बाहरी स्रोतों से जानकारी प्राप्त कर सकते हैं।
+
+    हम आपकी जानकारी को कैसे संसाधित करते हैं? हम प्रदान करने के लिए आपकी जानकारी को संसाधित करते हैं,
+    हमारी सेवाओं में सुधार और व्यवस्थापन करें, सुरक्षा और धोखाधड़ी की रोकथाम के लिए आपसे संवाद करें और कानून का पालन करें। हम आपकी सहमति से आपकी जानकारी को अन्य उद्देश्यों के लिए भी संसाधित कर सकते हैं। हम आपकी जानकारी को तभी संसाधित करते हैं जब हमारे पास वैध कानूनी कारण हो।
+
+    हम किन स्थितियों में और किन पार्टियों के साथ व्यक्तिगत जानकारी साझा करते हैं?
+    हम विशिष्ट परिस्थितियों में और विशिष्ट तृतीय पक्षों के साथ जानकारी साझा कर सकते हैं।
+
+    हम आपकी जानकारी को कैसे सुरक्षित रखते हैं? हमारे पास संगठनात्मक और तकनीकी है
+    आपकी व्यक्तिगत जानकारी की सुरक्षा के लिए प्रक्रियाएं और प्रक्रियाएं। हालांकि, इंटरनेट पर किसी भी इलेक्ट्रॉनिक ट्रांसमिशन या सूचना भंडारण तकनीक की 100% सुरक्षित होने की गारंटी नहीं दी जा सकती है, इसलिए हम हैकर्स से वादा या गारंटी नहीं दे सकते हैं,
+    साइबर अपराधी, या अन्य अनधिकृत तृतीय पक्ष हमारे को हराने में सक्षम नहीं होंगे
+    सुरक्षा और अनुचित तरीके से आपकी जानकारी एकत्र करना, एक्सेस करना, चोरी करना या संशोधित करना।
+
+    आपके अधिकार क्या हैं? आप भौगोलिक रूप से कहां स्थित हैं, इस पर निर्भर करते हुए, लागू गोपनीयता कानून का अर्थ यह हो सकता है कि आपके पास अपने व्यक्तिगत के संबंध में कुछ अधिकार हैं</string>
+
+    <string name="privacytitle">गोपनीयता नीति</string>
+    <string name="logoutmesg" translatable="false">क्या आप लॉग आउट करना चाहते हैं?</string>
+    <string name="policymessage" translatable="false">कृपया शर्तें जांचें और; स्थितियाँ</string>
+
+</resources>

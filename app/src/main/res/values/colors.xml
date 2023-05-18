@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#ED1C24</color>
+    <color name="grey">#949494</color>
+    <color name="civilcolor">#EEEBFF</color>
+    <color name="propertycolor">#B6EEFF</color>
+    <color name="corporatecolor">#D4E0FF</color>
+    <color name="criminalcolor">#F0F0F0</color>
+    <color name="divorcecolor">#FEFBAC</color>
+    <color name="taxationcolor">#C1FFB2</color>
+    <color name="bankingcolor">#EAE6FF</color>
+    <color name="enviornmentcolor">#FFE9C8</color>
+    <color name="animalcolor">#D5FFFA</color>
+    <color name="domesticcolor">#94E5FF</color>
+    <color name="sexualcolor">#FFE9C8</color>
+    <color name="motorcolor">#94E5FF</color>
+    <color name="backcolor">#F1F1F1</color>
+    <color name="ratingcolor">#F3DB00</color>
+    <color name="suggestionbackcolor">#ECECEC</color>
+    <color name="successcolor">#2B9962</color>
+    <color name="timecolor">#636364</color>
+    <color name="lightred">#FFEDEE</color>
+    <color name="completedcolor">#7DCD81</color>
+    <color name="greydark">#636364</color>
+    <color name="button2">#eb6a05</color>
+    <color name="inprocess">#E3892A</color>
+    <color name="addcartcolor">#F04A00</color>
+    <color name="logoutcolor">#148cbf</color>
+    <color name="reviewdoccolor">#0A47BF</color>
+    <color name="colorGrey">#dddddd</color>
+    <color name="green">#29A62E</color>
+</resources>

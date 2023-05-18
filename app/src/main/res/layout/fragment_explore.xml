@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Explore">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/homepagebackdesign"
+            android:elevation="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/poppinsmedium"
+                android:gravity="center_horizontal"
+                android:text="@string/explore"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+        </RelativeLayout>
+
+           <androidx.core.widget.NestedScrollView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:fillViewport="true">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+           <androidx.viewpager2.widget.ViewPager2
+               android:id="@+id/view_pager"
+               android:layout_width="match_parent"
+               android:layout_height="180dp"
+               android:layout_below="@+id/header"
+               android:elevation="0dp"
+               android:layout_marginTop="20dp"
+               android:layout_marginHorizontal="10dp"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/trendingadvocatetag"
+                   android:textSize="13dp"
+                   android:textColor="@color/black"
+                   android:layout_gravity="center"
+                   android:padding="5dp"
+                   android:fontFamily="@font/poppinsmedium"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginHorizontal="10dp"/>
+
+               <androidx.recyclerview.widget.RecyclerView
+                   android:id="@+id/trendingadvocate"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="10dp"/>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:weightSum="2"
+             android:layout_marginHorizontal="10dp">
+
+             <androidx.cardview.widget.CardView
+                 android:id="@+id/videocalllayout"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center"
+                 android:orientation="horizontal"
+                 app:cardCornerRadius="5dp"
+                 android:layout_margin="1dp">
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:padding="8dp">
+
+                 <androidx.cardview.widget.CardView
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                     app:cardCornerRadius="80dp"
+                     app:cardBackgroundColor="@color/lightred"
+                     android:layout_margin="1dp">
+
+                     <ImageView
+                         android:layout_width="30dp"
+                         android:layout_height="30dp"
+                         android:layout_gravity="center"
+                         android:scaleType="centerInside"
+                         android:src="@drawable/instancevideocall" />
+
+                 </androidx.cardview.widget.CardView>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="5dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="@string/videomsg"
+                     android:textAlignment="center"
+                     android:textColor="@color/black"
+                     android:textSize="11dp" />
+
+                 </LinearLayout>
+
+             </androidx.cardview.widget.CardView>
+
+             <View
+                 android:layout_width="10dp"
+                 android:layout_height="5dp"/>
+
+             <androidx.cardview.widget.CardView
+                 android:id="@+id/audiocalllayout"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:gravity="center"
+                 android:orientation="horizontal"
+                 app:cardCornerRadius="5dp"
+                 android:layout_margin="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp">
+
+                 <androidx.cardview.widget.CardView
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"
+                     app:cardCornerRadius="80dp"
+                     app:cardBackgroundColor="@color/lightred"
+                     android:layout_margin="1dp">
+
+                     <ImageView
+                         android:layout_width="30dp"
+                         android:layout_height="30dp"
+                         android:layout_gravity="center"
+                         android:scaleType="centerInside"
+                         android:src="@drawable/instanceaudiocall" />
+                 </androidx.cardview.widget.CardView>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_marginTop="5dp"
+                     android:fontFamily="@font/poppinsmedium"
+                     android:gravity="center"
+                     android:text="@string/audiomsg"
+                     android:textAlignment="center"
+                     android:textColor="@color/black"
+                     android:textSize="11dp" />
+
+                </LinearLayout>
+
+             </androidx.cardview.widget.CardView>
+
+
+         </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_weight=".8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/instantservice"
+                        android:textSize="13dp"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:fontFamily="@font/poppinsmedium" />
+
+                    <TextView
+                        android:id="@+id/viewallinstance"
+                        android:layout_weight=".2"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:textSize="13dp"
+                        android:textColor="@color/red"
+                        android:layout_gravity="center"
+                        android:gravity="end"
+                        android:padding="5dp"
+                        android:text="@string/viewall"
+                        android:fontFamily="@font/poppinsmedium"/>
+
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/instanceservicesview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+               <ImageView
+                   android:id="@+id/whatsissueimage"
+                   android:layout_width="match_parent"
+                   android:layout_height="180dp"
+                   android:src="@drawable/whatsissueicon"
+                   android:layout_gravity="center"
+                   android:scaleType="fitXY"
+                   android:layout_marginHorizontal="10dp"
+                   android:layout_marginTop="5dp"
+                   android:visibility="gone"/>
+
+     </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

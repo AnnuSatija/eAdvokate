@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../Android/Sdk/platforms/android-32/data/res/layout/activity_list_item.xml" value="0.19375" />
+        <entry key="app/src/main/res/drawable-v24/signbutton.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/bottom_navigation_icon.xml" value="0.1125" />
+        <entry key="app/src/main/res/drawable/bottomback.xml" value="0.1345" />
+        <entry key="app/src/main/res/drawable/cancel.xml" value="0.1275" />
+        <entry key="app/src/main/res/drawable/catborder.xml" value="0.115" />
+        <entry key="app/src/main/res/drawable/clockbackground.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/clockhead.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/clocklegs.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/edittextback.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/homepagebackdesign.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/searchback.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/shadow.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/suggenstionback.xml" value="0.1205" />
+        <entry key="app/src/main/res/layout/activity_document_review.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_instant_services_view_all.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_lawyer_profile.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_map.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_notification.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_payment_breakup.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_set_location.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_sign_up_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_verify_otp_screen.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_your_advocate.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/bottomsheetlayout.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/checkbouncetimerclock.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_choose_lawyer_using_document_upload.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_explore.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/fragment_feedback_videocall.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_help.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_whatsissuefragment.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/gpsalert.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/instanceserviceitemlayout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/loadingpopup.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/pager_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/paymentalertdialogue.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/timerclock.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/timerloaderpage.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/videocallingfeedback.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/whatsissueitemlayout.xml" value="0.2" />
+        <entry key="app/src/main/res/menu/nav_graph.xml" value="0.19375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

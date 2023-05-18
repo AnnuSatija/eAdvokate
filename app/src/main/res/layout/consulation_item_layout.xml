@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/trendingadvocatelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:layout_marginHorizontal="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="3dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="160dp"
+                    >
+                <ImageView
+                    android:id="@+id/advocateimage"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/demoimageadvocate"
+                    android:layout_gravity="center"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center">
+
+                     <TextView
+                        android:id="@+id/advocatename"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Adv. Annu Satija"
+                        android:textSize="14dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppinsbold"/>
+
+                <TextView
+                    android:id="@+id/exp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Experience-5yrs"
+                    android:textSize="10dp"
+                    android:textColor="@color/grey"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="xx-xx-xxxx"
+                    android:textSize="12dp"
+                    android:textColor="@color/red"
+                    android:fontFamily="@font/poppinsmedium" />
+
+                <TextView
+                    android:id="@+id/servicename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="service name"
+                    android:textSize="12dp"
+                    android:textColor="@color/grey"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/consullanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="language"
+            android:textSize="10dp"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/consulmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mode"
+            android:textSize="10dp"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="5dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

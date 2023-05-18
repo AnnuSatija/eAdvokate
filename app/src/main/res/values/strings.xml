@@ -1,0 +1,395 @@
+<resources>
+    <string name="google_maps_key">AIzaSyAn7lPJHsehIBr-EV76F4-cv5FlOMxaOKI</string>
+    <string name="app_name">eAdvokate</string>
+    <string name="authpassword" translatable="false">IwwK5$7T$q67Zny$46@5Sji08kjIxoHn9%QjINvEJ&amp;ji4h^EL</string>
+    <string name="signintext">Preferred Consultation Language</string>
+    <string name="applanguage">Preferred App Language</string>
+    <string name="letsstarttext">Let\'s Get Started</string>
+    <string name="termpolicy" translatable="false">By signing up you accept to the Terms and Conditions,Privacy Policy.</string>
+    <string name="signmsg">Don\'t have an account?</string>
+    <string name="regismsg">Already have an account?</string>
+    <string name="optscreentext">Verification</string>
+    <string name="otpmsg">Enter your OTP code number</string>
+    <string name="otpbuttonmsg">Continue</string>
+    <string name="codemsg">Didn\'t receive the code?</string>
+    <string name="resendmsg">Resend OTP</string>
+    <string name="term" translatable="false">Agree with <a href="">Terms Conditions</a> &amp; </string>
+    <string name="privacy_policy" translatable="false"> <a href="">Privacy Policy</a> </string>
+
+    <string name="home">Home</string>
+    <string name="explore">Explore</string>
+    <string name="profile">Feeds</string>
+    <string name="help">Account</string>
+    <string name="search">Search</string>
+    <string name="homemsg">Lodge any complaint/FIR instantly with the assistance of an experienced advocate</string>
+    <string name="videomsg">Instant Video\nConsultancy</string>
+    <string name="audiomsg">Instant Audio\nConsultancy</string>
+    <string name="schedulmsg">Schedule An Appointment</string>
+    <string name="instantservice">Instant Solution &amp; Customized Services</string>
+    <string name="instantservicenew">Instant Services</string>
+    <string name="viewall">View all</string>
+    <string name="legalmsg">24x7 Legal Assistance</string>
+    <string name="legaladvocate">24x7 Legal Advocate</string>
+    <string name="revdocmsg">Review Documents</string>
+    <string name="cheqmsg">Cheque Bounce/NI</string>
+    <string name="issumsg">Issue a Notice!</string>
+    <string name="rentmsg">Rent Agreements</string>
+    <string name="marriagemsg">Marriage Registration</string>
+    <string name="marriagemsga">Register your Marriage</string>
+    <string name="matrimsg">Matrimonial Disputes</string>
+    <string name="legalassmsg">Legal Assistance for Startups</string>
+    <string name="startup">Start up Lawyers</string>
+    <string name="assismsg">Assistance with Affidavit</string>
+    <string name="settlemsg">Settle Your Challan</string>
+    <string name="animlmsg">Animal Cruelty</string>
+    <string name="conmsg">Consumer Assistance</string>
+    <string name="cybermsg">Cyber Crime</string>
+    <string name="sendnotice">Send a Notice</string>
+    <string name="affidavit">Make an Affidavit</string>
+    <string name="challan">Release of Challans</string>
+    <string name="whatsissue">What\’s the issue</string>
+    <string name="civilmsg">Civil/Commercial </string>
+    <string name="propertymsg">Property\n/Real Estate</string>
+    <string name="corpormsg">Corporate</string>
+    <string name="criminalmsg">Criminal</string>
+    <string name="divorcemsg">Divorce</string>
+    <string name="taxmsg">Taxation</string>
+    <string name="chequbouncmsg">Banking\n/Cheque Bouncing</string>
+    <string name="envmsg">Environment</string>
+    <string name="animmsg">Animal Cruelty</string>
+    <string name="dommsg">Domestic voilence</string>
+    <string name="sexmsg">Sexual Harasment</string>
+    <string name="motormsg">Motor Accident</string>
+    <string name="myprofile">My Profile</string>
+    <string name="termcondition">Terms and Conditions</string>
+    <string name="policymsg">Privacy Policy</string>
+    <string name="cases">My Cases</string>
+    <string name="request">Pending Requests</string>
+    <string name="appoint">My Appointments</string>
+    <string name="advocate">My Advocates</string>
+    <string name="payment">Payment</string>
+    <string name="consultation">My Consultations</string>
+    <string name="lawyer">My Lawyers</string>
+    <string name="rateus">Rate Us</string>
+    <string name="setting">Settings</string>
+    <string name="shareapp">Share with your friends</string>
+    <string name="downloadmsg">Download app for</string>
+    <string name="layer">Lawyers</string>
+    <string name="student">Students</string>
+    <string name="supor">Help Centre</string>
+    <string name="other">Others</string>
+    <string name="chat">Chat</string>
+    <string name="review">Review</string>
+    <string name="aboutmsg">About Us</string>
+    <string name="query">Queries</string>
+    <string name="contus">Contact Us</string>
+    <string name="about">About Eadvocate</string>
+    <string name="more">More</string>
+    <string name="child">Child Custody</string>
+    <string name="arbitration">Arbitration</string>
+    <string name="labor">Labor Laws</string>
+    <string name="breach">Breach Of Contract</string>
+    <string name="consumer">Consumer Court</string>
+    <string name="custom">Custom &amp; Central Excise</string>
+    <string name="immigration">Immigration</string>
+    <string name="insurance">Insurance</string>
+    <string name="itr">ITR/GST</string>
+    <string name="medical">Medical Negligence</string>
+    <string name="trade">Trademark/Patent/Copyright</string>
+    <string name="willstrust">Wills/Trust</string>
+    <string name="muslimlaws">Muslim Law</string>
+    <string name="humanrights">Human Rights</string>
+    <string name="media">Media &amp; Entertainment</string>
+    <string name="mergers">Mergers &amp; Acquisition</string>
+    <string name="dataprivacy">Data Privacy</string>
+    <string name="marriagecouns">Marriage Counseling </string>
+    <string name="employmatter">Employment Matters</string>
+    <string name="techlaws">Technology Law</string>
+    <string name="enargylaw">Energy Law</string>
+    <string name="citizenship">Citizenship Matters</string>
+    <string name="outsidemsg">Outside Court Settlement</string>
+    <string name="commercialmsg">Commercial Agreement</string>
+    <string name="salesmsg">Sale/purchase Deed</string>
+    <string name="patent">Patent Issue</string>
+    <string name="copy">Copyright Issue</string>
+    <string name="registration">Registration of Wills/Trust</string>
+    <string name="success">Succession</string>
+    <string name="human">Human Rights</string>
+    <string name="merger">Mergers &amp; Acquisition</string>
+    <string name="data">Data Privacy</string>
+    <string name="arms">Arms &amp; Ammunition</string>
+    <string name="matrimonial">Matrimonial Dispute</string>
+    <string name="energy">Energy Law </string>
+    <string name="citizen">Citizenship Matters</string>
+    <string name="mediation">Mediation</string>
+    <string name="commercial">Commercial Agreement</string>
+    <string name="sale">Sale/purchase Deed</string>
+    <string name="meeting">Personal\nMeeting</string>
+    <string name="online">Online Consultancy</string>
+    <string name="teleonline">Telephonic Consultancy</string>
+    <string name="pickcase">Pick Your Case</string>
+    <string name="property">Property</string>
+    <string name="civil">Civil</string>
+    <string name="criminal">Criminal</string>
+    <string name="divorce">Divorse</string>
+    <string name="logout">Log out</string>
+    <string name="environment">Enviroment</string>
+    <string name="txt">Tax</string>
+    <string name="clockpagemsg">Please wait! we are finding the \nbest advocates for you!</string>
+    <string name="alertmsg">Meanwhile: \nDon\’t press the refresh/back button and make sure you have a stable connection.</string>
+    <string name="youradvocate">Your Advocate</string>
+    <string name="advocatetitle">Our Advocate is here to guide you in your Legal matters</string>
+    <string name="profileview">View Profile</string>
+    <string name="contibutton">Continue Now</string>
+    <string name="supportmsg">Need Free Assistance?</string>
+    <string name="feedmsg">Feeback</string>
+    <string name="videoquality">Video/Audio Quality</string>
+    <string name="audioquality">Are you satisfied with the consultancy?</string>
+    <string name="suggestion">Any Suggestions?</string>
+    <string name="hintmsg">Write here...</string>
+    <string name="proceed">Go to homepage</string>
+    <string name="profilelawyer">Advocate Profile</string>
+    <string name="demodetailsadvocate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo ultrices justo, commodo mus posuere. Egestas viverra vitae vitae vitae ipsum sit id purus amet. Consectetur tempus in donec quis turpis. Nullam fringilla ullamcorper condimentum laoreet. Convallis in enim rhoncus nec ullamcorper a velit. Sed ultrices nibh aliquam congue sed vitae sed maecenas. Vel duis eget senectus habitant volutpat pretium. Molestie orci congue risus ut ut accumsan risus lorem viverra. Non vel consectetur massa odio aliquam id amet. Turpis amet praesent at convallis adipiscing risus, facilisis facilisi. Et eget velit pulvinar tristique hac sed vulputate sed. Curabitur mauris, massa tincidunt quis adipiscing interdum id metus ultricies. Netus suspendisse lacinia aliquam ullamcorper. In ut et lectus et nisl.
+diam egestas vitae faucibus dui. Dui ullamcorper lobortis dolor platea mauris purus, laoreet arcu dictumst. Quam elementum quisque augue ac, semper commodo, imperdiet arcu ullamcorper. Egestas a ac orci aenean risus dolor, mi.</string>
+    <string name="profiledetailspagemsg">Contact Now</string>
+    <string name="paymentsuccessfulmsg">Your Payment was succesfull !!</string>
+    <string name="paymentsuccessfulmsgg">Thanks for choosing us. You will receive your reviewed documents in 24 hours. </string>
+    <string name="paymentmsg">Your payment was successful. Get ready to receive sound legal advice from experienced advocates.</string>
+    <string name="paymentpagebutton">Connect Now</string>
+    <string name="documentreview">Document Review</string>
+    <string name="noofpages">Total number of pages</string>
+    <string name="docuploadmsg">Upload Your Documents here</string>
+    <string name="dochintmsg">Select Files</string>
+    <string name="dochintmsgg">Re-Upload</string>
+    <string name="paymentbreak">Payment Breakup</string>
+    <string name="checkbouncealertmsg">Please wait! we are finding the best advocates available right now!</string>
+    <string name="checkbouncealertmsga">Meanwhile: \nKeep Your Documents Ready</string>
+    <string name="checkbouncealertmsgb">To avoid crimes such as the unauthorised use of a blank check, specific guidelines must be followed. Ask your lawyer and educate yourself!</string>
+    <string name="noticemsga">Meanwhile:\nKeep your case summary ready, and save your time!</string>
+    <string name="noticemsgb">Do you know Serving legal notice allows the opposing party, an obligation to address the matter amicably?</string>
+    <string name="rentmaga">Meanwhile:\nKeep your case summary ready!</string>
+    <string name="marriagea">  Meanwhile:\nMake sure that you have all documents and id proof of you and your spouse with you right now!</string>
+    <string name="marriageb">A marriage certificate provides protection for both spouses, but it also allows couples to go abroad on a spouse visa, and a marriage certificate also helps in banking matters and seeking visa to settle abroad.</string>
+    <string name="matrimonia">Meanwhile:\nMake sure that you have all documents and id proof of you and your spouse with you right now!</string>
+    <string name="chooselawyer">Choose Your Lawyer</string>
+    <string name="basic">Basic</string>
+    <string name="basicexp">Experience - 0-3 Years</string>
+    <string name="basiccharg">Charges - Rs. 80/page</string>
+    <string name="advance">Advance</string>
+    <string name="advancexp">Experience - 3-7 Years</string>
+    <string name="advanccharg">Charges - Rs. 120/page</string>
+    <string name="pro">Pro</string>
+    <string name="proexp">Experience - 7+ Years</string>
+    <string name="procharg">Charges - Rs. 150/page</string>
+    <string name="noti">Notifications</string>
+    <string name="notimsg">Advocate has accepted your consultation request.Pay now to connect.</string>
+    <string name="time">10:10 AM</string>
+    <string name="setlocation">Select a location</string>
+    <string name="searchmsg">Search for area, street name...</string>
+    <string name="locmsg">Use your Current Location</string>
+    <string name="nearlymsg">Nearby Locations</string>
+    <string name="chng">Change</string>
+    <string name="cnfrmloc">Confirm Location</string>
+    <string name="gpstitle">GPS Required!</string>
+    <string name="gpsmsg">Enable gps otherwise location won\'t work</string>
+    <string name="settinggps">SETTINGS</string>
+    <string name="changelocation">Change location</string>
+    <string name="confidential"> 100% Confidentially</string>
+    <string name="legalconsulant">24*7 Legal Consultancy</string>
+    <string name="instantadvice">Instant Legal Advice</string>
+    <string name="affordablerate">Affordable Rates</string>
+    <string name="knowright">Know Your Rights</string>
+    <string name="knowrighttitlea">Right next to the Cheque Bounce</string>
+    <string name="knowrighttitleb">The right of parents to be supported by their children</string>
+    <string name="knowrighttitlec">The Right to lodge an FIR</string>
+    <string name="knowrighttitled">Equality of compensation for equal work</string>
+    <string name="knowrighttitlee" translatable="false">If a traffic officer removes your car key, you have the legal right to sue</string>
+    <string name="knowrighttitlef" translatable="false">Right to Information</string>
+
+    <string name="knowrighttitleaa" translatable="false">A cheque bounce is a violation of Section 138 of the Negotiable Instruments Act of 1881  &#44;  punishable by a fine of up to double the value of the cheque  &#44;  imprisonment for up to two years  &#44; or both &#46; \n
+        What should you do if your right is violated &#63; \n
+        If you get payment via check and it bounces, you should immediately call a lawyer and serve a legal notice on the individual who is obliged to reimburse you &#46; \n
+        If you do not obtain payment within 15 days of receiving the legal notice  &#44;  you may pursue criminal charges against the individual &#44;  and he may be imprisoned as a result &#46; </string>
+
+    <string name="knowrighttitlebb" translatable="false">Section 125 of the Cr. P.C. states that parents  &#40;whether biological, adoptive, or stepfather or stepmother, senior citizen or not &#41;  have the right to seek maintenance from their adult children &#46; \n
+       \n<b> What should you do if your right is violated? </b>\n\n
+        Present adequate evidence to the court that your sons &#47; daughters who are capable of supporting you have failed to do so. An application for maintenance may be made against any individual who is obligated to pay it &#46; </string>
+
+    <string name="knowrighttitlecc" translatable="false">According to Section 166 A of the Indian Penal Code, a police officer cannot decline to file an FIR &#46;  As an Indian citizen, you have the right to register an FIR for a cognizable offence, and a police officer who refuses to lodge the FIR is liable under Section 166A&#40;c &#41;  of the Indian Penal Code for committing a crime. According to the Supreme Court, in such circumstances,   &#34;  the police officer will be subject to prosecution and punishment &#46; &#34;
+        \n\n How should this right be exercised  &#63;\n\n
+        Visit the police station &#40;preferably close to the crime scene&#41;  and provide any relevant information to the officer in charge. In addition, Section 154 of the CrPC offers the informant the option of providing information verbally or in writing.
+       \n Note &#58; According to Delhi Police guidelines, women have the option of filing a complaint by email or even by mail if they are unable to visit a police station.
+        \n\n What should you do if your right is violated&#63;\n\n
+        If the officer in charge declines to register a first information report concerning the occurrence of a cognizable criminal within his territorial authority in accordance with Section 154 &#40; 3  &#41; , the following procedures may be taken  &#58;
+        \n\n &#40; a &#41; Proceed to the Superintendent of Police&#58; \n\n
+        With a written complaint, the informant can contact any senior official of the police, the Superintendent of Police, or the Commissioner of Police.\n
+        If the Superintendent of Police believes that such information reveals the commission of a cognizable offence, he may conduct an inquiry personally or direct an investigation to be conducted by any police officer subordinate to him.
+        \n\n &#40; b &#41; Judicial Magistrate Complaint&#58; \n\n
+        If, despite submitting a complaint to Senior Police officials, no FIR is lodged, the informant has the legal right to file a complaint with the Judicial Magistrate&#47; Metropolitan Magistrate under Section 156&#40; 3 &#41;  read with Section 190 of the criminal procedure, requesting that the FIR be registered by the police and an investigation into the matter to begin.
+        \n\n &#40; c &#41; Legal Recourse &#58; \n\n
+        A Write Petition may be filed in the relevant High Court to seek damages  &#47; compensation if the Polices inactivity on the complaint &#47;non &#45; registration of FIR has resulted in the frustration &#47; deprivation of life and liberty guaranteed by Article 21 of the Indian Constitution.
+
+    </string>
+
+    <string name="knowrighttitledd" translatable="false">
+        \n\n The Equal Remuneration Act of 1976 is a law that requires equal compensation for equal labour done by men and women. When two or more persons perform the same task under identical conditions, they are entitled to equal compensation.
+        \n \nWhat should you do if your right is violated&#63;\n\n
+        When an employer violates these requirements, employees have the right to submit a complaint with the appropriate labour authorities.
+        After validating the merits of the complaint, the competent labour authority may launch an investigation and take necessary action.
+        Employers are obligated to keep registers including information about their employees pay.
+    </string>
+
+    <string name="knowrighttitleee" translatable="false">According to the Motor Vehicle Act of 1988, if a traffic officer steals the key from your automobile or motorbike, you have the right to file a legal procedure against that traffic officer.
+       \n\n What should you do if your right is violated&#63;\n\n
+        If a traffic cop steals your vehicle keys for no apparent reason, snap photographs of the incident and file a complaint against that officer.</string>
+
+    <string name="knowrighttitleff" translatable="false">Under the RTI Act, any Indian person can seek information from any public authority, and the authority must respond as soon as possible or within thirty days.
+       \n\n If the petitioners life and liberty are at stake, the information must be delivered within 48 hours.
+       \n\n What should you do if your right is violated&#63;\n\n
+        Public employees who purposefully delay or block an application for information, or who purposefully offer erroneous or misleading information, may face penalties under RTI rules.
+        It is critical to understand your legal rights as an Indian citizen in a country as varied and complicated as India. Not understanding your basic legal rights can have ramifications ranging from personal safety to work stability.</string>
+
+    <string name="instantservicesdetails">What is Instant Solution and Customized Services?</string>
+    <string name="instantservicesdetailsbottom">Our advocates will listen to your problem and create a tailored solution that best suits you. We are committed to helping you with the best possible advice instantly.</string>
+    <string name="trendingadvocatetag">Trending Advocates</string>
+    <string name="nameadvocate">Adv. Akriti Jain</string>
+    <string name="feedlist">A divorced spouse should be treated with respect and dignity and show kindness in front of the child</string>
+    <string name="videoloadermsg">Preferred  Consultancy Language</string>
+    <string name="paymentbreakup">Payment Details</string>
+    <string name="consulfee">Consultancy fees -</string>
+    <string name="cgst">CGST @ 9% -</string>
+    <string name="gst">GST @ 18%  :</string>
+    <string name="couponcode">Coupon (EADVOKATE100)</string>
+    <string name="totalpaymsg">Total Amount Payable:</string>
+    <string name="usedcoupnmsg">Used Coupons</string>
+    <string name="congratulationmsg">Congratulations your consultancy fees 100% waived off.</string>
+    <string name="proceedmsg">Proceed to join</string>
+    <string name="feedbackmsg">Thankyou! We hope our legal experts has addressed your queries you will receive further communication on the same.</string>
+
+    <string name="civilcomm">Civil/ Commercial</string>
+    <string name="corporate">Corporate</string>
+    <string name="divorcee">Divorce</string>
+    <string name="checkbounc">Cheque Bouncing</string>
+    <string name="animal">Animal Cruelty</string>
+    <string name="sexualhars">Sexual Harassment</string>
+    <string name="realest">Property/ Real Estate</string>
+    <string name="criminall">Criminal</string>
+    <string name="taxation">Taxation</string>
+    <string name="environmentt">Environment</string>
+    <string name="doms">Domestic Violence</string>
+    <string name="motoraccid">Motor Accident</string>
+    <string name="searchadvocate">Search An Advocate</string>
+    <string name="selectcity">Select City</string>
+    <string name="selectcourt">Select Court (Optional)</string>
+    <string name="preferdlang">Preferred Consultancy Language</string>
+    <string name="mode">Select Mode</string>
+    <string name="nearbymsg">Nearby Advocate</string>
+    <string name="onlinemeet">Online Meeting</string>
+    <string name="personmeet">Personal Meeting</string>
+    <string name="discalimermsg">Disclaimer:</string>
+    <string name="nearbyadvoctmsg"> Please note prices may vary from advocate to advocate based on their experience.</string>
+    <string name="schedulemsg">Schedule Appointment</string>
+    <string name="proceedchekout">Proceed to checkout</string>
+    <string name="choosemode">Choose Mode</string>
+    <string name="onlinevideomsg">Online Video Consultancy</string>
+    <string name="onlineaudiomsg">Online Audio Consultancy</string>
+    <string name="selectdate">Select Date</string>
+    <string name="opencalendar">Open Calender</string>
+    <string name="advocateavailabilitymsg">Advocate’s Availability</string>
+    <string name="uploaddocmsg">Upload Documents (Optional)</string>
+    <string name="writecasemsg">Write Case brief (Optional)</string>
+    <string name="scheduleappnt">Schedule Appointment</string>
+    <string name="writebriefmsg">Write Case brief (Optional)</string>
+    <string name="writeheremsg">Write here.</string>
+    <string name="selectopt">Select source</string>
+    <string name="paymentdetailsmsg">Payment Details</string>
+    <string name="paymentchargemsg">Charges for your document review</string>
+    <string name="proceeddmsg">Proceed to pay</string>
+    <string name="docproceed">Proceed</string>
+    <string name="chooselawyercat">Choose Your Lawyer</string>
+    <string name="expfirst">Experience - 0-3 Years</string>
+    <string name="expfirstcharge">Charges - Rs. 80/page</string>
+
+    <string name="chooselawyercatad">Advance</string>
+    <string name="expsecnd">Experience - 3-7 Years</string>
+    <string name="expsecndcharge">Charges - Rs. 120/page</string>
+
+    <string name="chooselawyercatpr">Pro</string>
+    <string name="expthird">Experience - 7+ Years</string>
+    <string name="expthirdcharge">Charges - Rs. 150/page</string>
+
+    <string name="pros">Proceed</string>
+    <string name="douknow">Did You Know</string>
+    <string name="justmsg">Right next to the Cheque Bounce</string>
+    <string name="demomsg">A cheque bounce is a violation of Section 138 of the Negotiable Instruments Act of 1881, punishable by a fine of up to double the value of the cheque, imprisonment for up to two years, or both.\n What should you do if your right is violated?\n If you get payment via check and it bounces, you should immediately call a lawyer and serve a legal notice on the individual who is obliged to reimburse you.\n If you do not obtain payment within 15 days of receiving the legal notice, you may pursue criminal charges against the individual, and he may be imprisoned as a result.\nA cheque bounce is a violation of Section 138 of the Negotiable Instruments Act of 1881, punishable by a fine of up to double the value of the cheque, imprisonment for up to two years, or both.\n What should you do if your right is violated?\n If you get payment via check and it bounces, you should immediately call a lawyer and serve a legal notice on the individual who is obliged to reimburse you.\n If you do not obtain payment within 15 days of receiving the legal notice, you may pursue criminal charges against the individual, and he may be imprisoned as a result.\n
+    </string>
+
+    <string name="didknowmsgtitle">No firm can fire or ask to leave a pregnant lady. It could be punishable by a most of 3 years of imprisonment</string>
+    <string name="didknowmsgdesc">If the corporate (Authorities or non-public) has greater than 10 workers then the pregnant ladies worker is eligible to get 84 days of paid maternity go away. If you ever found yourself in</string>
+
+    <string name="didknowmsgtitleb" translatable="false">2. According to the Citizen Constitution (Indian Oil Business website)</string>
+    <string name="didknowmsgdescb" translatable="false">just a few people are aware that if their fuel cylinder explodes during the cooking of meals, the fuel company is obligated to give the victim Rs. 50 lakh in compensation.
+To claim this compensation, customers must file an FIR with the nearest police station and send it to the gasoline business implicated. Did you know this before? Well, you do now!
+If you need any legal assistance in such matters, just reach out to us.
+</string>
+
+    <string name="didknowmsgtitlec" translatable="false">Did you know this is a startup or small business?</string>
+    <string name="didknowmsgdescc" translatable="false">The first step in beginning any business is determining the kind and type of business. Founders must incorporate the company as a specified business kind, such as a sole proprietorship, a private limited company, a public limited company, a partnership, a limited liability partnership, and so on. It is critical to have this clarity from the start since it will be crucial to the entire vision and goals of the firm, both short and long-term.
+        Each company kind has its own set of legal requirements and rules, which should be carefully considered before forming the firm.
+        If you find yourself stuck in such a situation, we have specialists for you to help you out with it.
+</string>
+
+    <string name="advocateprofiletitle">My Lawyers</string>
+    <string name="editmsg">Edit Profile</string>
+    <string name="name">Name</string>
+    <string name="mbnumber">Mobile Number</string>
+    <string name="email">Email </string>
+    <string name="gender">Gender</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="applang">App Language</string>
+    <string name="delete">Delete Account</string>
+    <string name="myapponts">My Appoinments</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="previous">Previous</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="cancl">Cancel</string>
+    <string name="anotherappointment">Book another appoinment</string>
+    <string name="raiseissue">Raise an issue</string>
+    <string name="payments">Payements</string>
+    <string name="paymentsmsg"> You don’t have any case right now!</string>
+    <string name="helpcenter"> Help Center</string>
+    <string name="paymentissue"> Payment related issue</string>
+    <string name="paymentrefund"> Payment and refunds </string>
+    <string name="advocaterelatedissue">Advocates related issue</string>
+    <string name="others">Others</string>
+    <string name="writeissue">Write your issue here...</string>
+    <string name="submit">Submit</string>
+    <string name="privacytitle">Privacy Policy</string>
+    <string name="privacy">SUMMARY OF KEY POINTS
+    This summary provides key points from our privacy policy.
+
+    What personal information do we process? When you visit, use, or navigate our Services, we may process personal information depending on how you interact , the choices you make, and the products and features you use.
+
+    Do we process any sensitive personal information? We do not process sensitive
+    personal information.
+
+    Do we receive any information from third parties? We may receive information from public databases, marketing partners, social media platforms, and other outside sources.
+
+    How do we process your information? We process your information to provide,
+    improve, and administer our Services, communicate with you for security and fraud prevention, and comply with the law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason.
+
+    In what situations and with which parties do we share personal information?
+    We may share information in specific situations and with specific third parties.
+
+    How do we keep your information safe? We have organizational and technical
+    processes and procedures to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers,
+    cybercriminals, or other unauthorized third parties will not be able to defeat our
+    security and improperly collect, access, steal.</string>
+
+    <string name="logoutmesg" translatable="false">Are you sure you want to logout ?</string>
+    <string name="policymessage" translatable="false">Please check Terms &amp; Privacy Policy</string>
+    <string name="paymentfailmag" translatable="false">Your transaction was failed Look like there might be any issue on the bank side.Please try again later. </string>
+
+
+</resources>
